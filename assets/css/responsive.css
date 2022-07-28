@@ -438,6 +438,11 @@ p,
 }
 .text_md_center {
 	text-align: center;
+	/* display: flex;
+	justify-content: center; */
+}
+.justify_md_center {
+	margin: 0 auto;
 }
 .d_md_none {
 	display: none;

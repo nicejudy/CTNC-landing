@@ -2296,10 +2296,12 @@ header a:hover,
 	position:relative;
 }
 .tk_countdown_time {
-	background-color: #5957cd;
+	background-color: #020e5a73;
 	border-radius: 9px;
 	box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
 	padding: 10px;
+	margin-bottom: 20px;
+	text-align: center;
 }
 .tk_countdown {
 	background-color: #4241B8;
@@ -2322,7 +2324,7 @@ header a:hover,
 	background-image: url("../images/counter_bg.png");
 }
 .tk_counter_inner {
-	margin: 0 auto;
+	/* margin: 0 auto; */
 	max-width: 390px;
 	width: 100%;
 }
@@ -5127,7 +5129,7 @@ header a:hover,
 	position:relative;
 }
 .top_footer {
-	padding: 100px 0;
+	padding: 100px 0 0 0;
 }
 .footer_title {
 	color: #ffffff;
@@ -5241,7 +5243,7 @@ button.btn-white:hover {
 	max-width: 490px;
 }
 .bottom_footer {
-	background-color: #4b49c5;
+	/* background-color: #4b49c5; */
 	padding: 20px 0;
 }
 .footer_bottom {
@@ -5687,7 +5689,6 @@ button.btn-white:hover {
 }
 .blog_meta li:last-child {
 	padding: 0;
-	float:right;
 }
 .blog_content p {
 	height: 85px;
